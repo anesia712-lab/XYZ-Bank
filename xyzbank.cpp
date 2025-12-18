@@ -1,3 +1,5 @@
+//xyz Bank Account Management System
+//This file defines the Account class and its core banking operations such as deposits and withdrwals
 #include <iostream>
 using namespace std;
 
@@ -33,7 +35,7 @@ public:
             cout << "Invalid deposit amount." << endl;
         }
     }
-
+//Withdraws money from the account
     //withdraw function
     void Withdraw(double amount)
     {
@@ -116,3 +118,4 @@ int main()
 
     return 0;
 }
+
